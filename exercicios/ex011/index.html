@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Aumente e dimanua o tamanho do navegador, aqui é utilizad a tag &lt;picture&gt; e dentro dela, além da tag &lt;img&gt; usar a tag &lt;source: type&gt;.</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reprodução de audio</h1>
+    <p>Para colocar audio em HMTL5 usa a tag &lt;audio&gt; com os parametros controls e autoplay.</p>
+
+    <audio src="midia/soundtrack.mp3" controls autoplay></audio>
+
+    <p>Mas o ideal é usar o &lt;audio&gt; e em seguida usar uma tag &lt;source&gt; ao invés do src: </p>
+
+    <audio preload="metadata" controls><!-- preload - tipo de carregamento, metadata carrega apenas algumas informacoes, não usar auto, pois ele vai carregar o arquivo inteiro-->
+        <source src="midia/soundtrack.mp3" type="audio/mpeg">
+        <source src="midia/soundtrack.ogg" type="audio/ogg">
+        <source src="midia/soundtrack.wav" type="audio/wav">
+    </audio>
+
+    <h1>Trabalhando com vídeo</h1>
+    <!--Procurar meios de reduzir o tamanho dos vídeos, atraves do handbreak, por exemplo-->
+
+    <p>Vídeos hospedados localmente (no meu próprio servidor)</p>
+
+  <!--  <video src="videos/video.mp4" width="500" controls></video> -->
+
+  <video width="500" poster="imagens/poster.jpg" controls>
+      <source src="videos/video.mp4" type="video/mp4" >
+      <!-- COLOCAR AQUI OS OUTROS FORMATOS DE VÍDEO, IMPORTANTE PQ NEM TODOS NAVEGADORES ACEITAM O MESMO FORMADO -->
+  </video>
+
+  <p>Vídeos hospedados em outros lugares(YouTube): </p>  
+  <!--Usar o botão 'Compartilhar' do YT e a opção 'Incorporar', vai dar um html pronto-->
+
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/IR63GWaGmes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <p>Pega a play do paikkkkkkjj</p>
+
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/hdrPSRxaB_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+</html>

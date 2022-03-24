@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+}
+body{
+   background-image: linear-gradient(to bottom, #151B26, #5B5A5E);
+   text-align: center;
+   text-shadow: 1px 1px 3px #BFB1A4;
+   background-attachment: fixed;
+}
+h1{
+    font-family: font;
+    color:#a4aabf;
+    
+}
+p{
+    font-family: font;
+    color:#a4aabf;
+}
+
+a {
+    color: rgb(208, 210, 214);
+}
+a:visited {
+    color: rgb(166, 135, 250);
+}
+main{
+
+}

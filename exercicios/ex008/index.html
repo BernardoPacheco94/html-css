@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas de textos</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2><strong>Negrito</strong></h2>
+    <p>Aqui há um <b> termo em negrito</b> usando a tag &lt;b&gt; (não semantica/de forma)</p>
+    <p>Nesta frase há um <strong>termo em destaque </strong> usando a tag &lt;strong&gt;</p>
+
+    <h2><i>Italico</i></h2>
+    <p>Aqui está uma frase <i>com aplicação de itálico</i> usando a tag &lt;i&gt;</p>
+    <p>Nesta frase temos um <em>termo em destaque</em> usando a tag &lt;em&gt;</p>
+
+    <h2>Texto <mark>Marcado</mark></h2>
+    <p>Podemos criar também um <mark style="background-color: lime;"> texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>Para definir a cor do mark no código todo, use a tag &lt;style&gt; em &lt;head&gt;, com o style como parâmetro</p>
+
+    <h2>Texto <big>Grande</big> e <small>Pequeno</small></h2>
+    <p>Estamos criando um <big>texto grande</big> e <small>outro pequeno</small> usando as tags &lt;big&gt; (obsoleta) e &lt;small&gt; (válida)</p>
+
+    <h2>Texto <del>Deletado</del></h2>
+    <p>Podemos marcar um <del>texto como excluído</del>, para indicar que ele pode ser lido mas deve ser desconsiderado, usando a tag &lt;del&gt;</p>
+
+    <h2>Texto <ins>Inserido</ins></h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins>, para dar ênfase e indicar que ele foi adicionado depois com a tag &lt;ins&gt;. Também existe a tag &lt;u&gt;, porém é não semantica</p>
+    
+    <h2>Texto <sup>Sobrescrito</sup></h2>
+    <p>Para inserir textos como x<sup>20</sup>-3, usar a tag &lt;sup&gt;</p>
+
+    <h2>Texto <sub>Subescrito</sub></h2>
+    <p>Inserir textos como H<sub>2</sub>O, use a tag &lt;sub&gt;</p>
+
+    <hr>
+
+    <h1>Aula 008</h1>
+
+    <h2>Outras formatações:</h2>
+    <p>O comando <code>document.getElementById</code> é escrito em linguagem javascript. Aqui foi utilizado a tag &lt;code&gt;.</p>
+    <p>Podemos usar a tag &lt;pre&gt; para marcar a identação de algum código que deve aparecer na nossa página</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num %2 == 0:
+        print(f'O número {num} é par')
+    else:
+        print(f'O número {num} é impar)
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2><q>Citações</q></h2>
+    <p>Como diria um amigo: <q>o computador é um burro muiro rápido</q>. Utilizada a tag &lt;q&gt; de Quotation.</p>
+
+    <p>Para citações completas (mais longas) é usada a tag &lt;blockquote&gt;, como a citação do trecho abaixo: <br>
+    <pre>
+        <blockquote cite="https://negociosinvest.com/wp-content/uploads/2018/06/Pense-e-Enriqueca-Napoleon-Hill.pdf">
+        Regateei com a vida por um centavo,
+        E a Vida não quis pagar mais,
+        Por mais que eu implorasse à noite
+        Quando contava meus magros haveres.
+        Pois a Vida é apenas empregador,
+        Dá-lhe o que você pede,
+        Mas desde que tenha estabelecido o salário,
+        Ora, é preciso agüentar a tarefa.
+        Trabalhei por um salário vil,
+        Só para descobrir, assombrado,
+        Que qualquer salário que eu tivesse pedido à Vida,
+        Ela teria pago com boa vontade.
+        </blockquote>
+    </pre>
+    </p>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HuperText Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>. Utilizando a tag &lt;abbr&gt;</p>
+</body>
+</html>

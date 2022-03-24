@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face{
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@font-face{
+    font-family: titulo;
+    src: url(fontes/titulo.otf);
+}
+
+body{
+    background-color: #82D9A0;
+    font-family: sans-serif;
+    margin: -40.8px 0px;  
+     
+}
+
+header{
+    background-image: linear-gradient(0deg, #1B5936, #82D9A0);
+    color: white; 
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.349);  
+}
+
+header > h1{
+    font-family: titulo;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 4em;
+    
+}
+
+a{
+    color: white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a {
+    padding: 0px 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+} 
+
+header > p{
+    text-align: center;
+}
+
+
+h1, h2{
+    font-family: android;
+    color: #1B5936;
+    padding-left: 10px;    
+}
+
+h2{
+    background-image: linear-gradient(to right, #82D9A0, transparent);
+}
+
+#titulo_principal{
+    color: white;
+}
+
+div{
+    text-align: center;
+}
+
+#video{
+    background-color: #1B5936;
+    margin: 0px -10px 10px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    text-align: center;
+}
+
+#video > iframe {
+    top: 3%;
+    left: 3.9%;
+    height: 92.4%;
+    width: 92.2%;
+    position: absolute;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 150px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.349);  
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#extra{
+    background-color: #82D9A0;
+    text-align: left;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.349); 
+}
+
+#extra > h3{
+    background-color: #1B5936;
+    color: white;
+    padding-left: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#extra > p {
+    padding: 10px;
+}
+
+
+footer{
+    color: white;
+    background-color: #1B5936;
+}
+
+footer > p {
+    text-align: center;
+}

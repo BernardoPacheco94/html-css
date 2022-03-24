@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links na página</h1>
+
+    <h2>Links Externos</h2>
+    <p>Clique <a href="https://www.instagram.com/bernardo__pacheco/">aqui</a> pra ser redirecionado pro meu instagram, basta usar a tag &lt;a&gt; </p>
+
+    <p>Porém eu posso usar o <a href="https://www.instagram.com/bernardo__pacheco/" target="_blank" rel="external">link</a> sem que o usuário saia da minha página. Para isso vou usar os parâmetros target="_blank" e rel="external", verificar o pdf para ver mais sobre rel</p>
+
+    <h2>Links internos</h2>
+    <p>Clique <a href="pag002.html" rel="next">aqui</a> para ir para a segunda página do meu site</p>
+    
+    <p>Você também pode acessar a <a href="noticias/pag003.html">página de noticias</a></p>
+
+    <h2>Link para Download</h2>
+    <p>Pode ser necessário usar, além do parametro download, o parametro <mark>type</mark> e informar o tipo de arquivo. Exemplo PDF é application/pdf. <br> Para saber o tipo de formato use o site <a href="iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">iana.org/assignments/media-types/media-types.xhtml</a></p>
+    <ul>
+        <li><a href="livro/pai-rico-pai-pobre.pdf" download="pai-rico-pai-pobre.pdf" target="_blank" type="application/pdf" >Baixar livro em PDF</a></li>
+        <li><a href="livro/pai-rico-pai-pobre.zip" download="pai-rico-pai-pobre.zip">Baixar livro compactado</a></li>
+    </ul>
+</body>
+</html>
