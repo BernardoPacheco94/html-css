@@ -6,14 +6,34 @@
     <title>Teste de Imagem de Fundo</title>
     <style>
         .quadrado{
-            border: 1ox solid black;
+            display: inline-block;
+            border: 2px solid black;
+            height: 250px;
+            width: 250px;
+            background-color: cadetblue;
+        }
+
+        #q1{
+            background-color: blue;
+        }
+
+        #q2{
+            background-image: linear-gradient(45deg, blue, white);
+        }
+
+        #q3{
+            background-image: url('img/pattern001.png');
+        }
+
+        body{
+            background-image: url('img/wallpaper001.jpg');
         }
     </style>
 </head>
 <body>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
     
 </body>
 </html>
