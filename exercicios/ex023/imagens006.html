@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: black;
+            background-image: url('img/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            /*background-size: auto; - é o padrão (corta ou repete dps que chega no limite da imagem) */
+            /*background-size: contain - (não permite corte na imagem, exibe 100% dela sempre)*/
+            background-size: cover; /*Cobre toda a tela, fazendo cortes para adaptar*/
+        }
+
+        main{
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate, eveniet, inventore alias eligendi magnam laborum et iure nam, rerum mollitia repudiandae beatae debitis cupiditate recusandae molestias deleniti omnis at?</p>
+    </main>
+</body>
+</html>
