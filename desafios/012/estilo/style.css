@@ -48,13 +48,24 @@ a:hover{
     text-decoration: underline;
 }
 
+main{
+    padding: 0px 5px;
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-right: 6vw;
+    padding-left: 3vw;
     line-height: 2em;
-    padding-left: 10vw;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -70,7 +81,15 @@ section.imagem{
 section.imagem > p {
     background-color: rgba(12, 12, 12, 0.267);
     display: inline-block;
-    padding: 8px;
+    padding: 0px 15px 2px 2px;
+}
+
+#abelha{
+    background: gray url('../imagens/background001.jpg') center center/cover no-repeat fixed;
+}
+
+#livro{
+    background: gray url('../imagens/background002.jpg') center center/cover no-repeat fixed;
 }
 
 footer{
