@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: gray;
+            font-weight: bolder;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tbody > tr:nth-child(even){ /*even = mpar*/
+            background-color: lightskyblue;
+            
+        }
+        tbody > tr:nth-child(odd){ /*odd = impar*/
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia de tabelas grandes:
+    CAPTION - Legenda
+	Head - tr, td, th
+	TBody - tr, td, th
+	TFoot - tr, td, th
+    --> 
+    <table>
+        <CAPtion style="padding: 8px;">
+            População das UFs
+        </CAPtion>
+        <thead>
+            <th scope="col" >Estado</th>
+            <th scope="col" style="width: 50px;">população (2010)</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td>10 693 929</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 796 448</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8 452 381</td>
+            </tr>
+            <tr>
+                <td> Pará</td>
+                <td>7 581 051</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>6 003 788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>6 574 789</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>3 483 985</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3 514 952</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>3 766 528</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3 035 122</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total</th> <!-- th pq é info/titulo e nao dado -->
+            <td style="font-weight: bold;">soma dosoto kkkkjj</td>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
