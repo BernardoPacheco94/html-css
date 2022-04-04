@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu virei astronauta</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: rgb(4, 4, 88);
+
+        }
+
+        #espaco {
+            position: absolute;
+            background-image: url('espaco.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #astronauta {
+            /*SHORTHAND - BACKGROUND
+color > image > position > / > size > repeat > attechment*/
+
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+
+
+            background: rgba(0, 0, 255, 0) url('astronauta.png') center center/contain no-repeat fixed;
+
+          
+
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <div id="espaco"></div>
+    <div id="astronauta"></div>
+
+</body>
+
+</html>
