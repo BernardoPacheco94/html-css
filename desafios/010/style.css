@@ -8,24 +8,31 @@
     src: url(fontes/titulo.otf);
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: #82D9A0;
     font-family: sans-serif;
-    margin: -40.8px 0px;  
-     
+    margin: -40.8px 0px;       
 }
 
 header{
     background-image: linear-gradient(0deg, #1B5936, #82D9A0);
     color: white; 
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.349);  
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.349); 
+    text-align: center; 
+    padding-top: 70px;
+    height: 280px;
 }
 
 header > h1{
     font-family: titulo;
     text-align: center;
     font-weight: lighter;
-    font-size: 4em;
+    font-size: 4em; 
     
 }
 
@@ -36,15 +43,28 @@ a{
     font-weight: bold;
 }
 
+nav{
+    background-color: #1B5936;
+    height: 30px;
+    width: 100vw;
+    color: #82D9A0;
+}
+
 nav > a {
-    padding: 0px 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition-duration: 2s;
 }
 
 a:hover{
-    text-decoration: underline;
+    background-color: #053318;
+    color: #82D9A0;
+    
 } 
 
 header > p{
+
+    padding-top: 25px;
     text-align: center;
 }
 
@@ -63,13 +83,11 @@ h2{
     color: white;
 }
 
-div{
-    text-align: center;
-}
+
 
 #video{
     background-color: #1B5936;
-    margin: 0px -10px 10px -10px;
+    margin: 0px -15px 10px -15px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -86,26 +104,42 @@ div{
 
 main{
     background-color: white;
-    padding: 10px;
-    margin: 0px 150px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.349);  
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    max-width: 700px;
+    min-width: 450px;
+    padding: 0px 15px 15px 15px;
+    margin: auto;
+    margin-bottom: 15px;    
 }
 
+main img {
+    width: 100%;
+    margin: auto;
+}
 
 
 p{
     text-align: justify;
     text-indent: 20px;
+    padding-bottom: 20px;
 }
 
 #extra{
     background-color: #82D9A0;
     text-align: left;
-    margin: 20px;
     border-radius: 12px;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.349); 
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.349);
+    
+}
+
+main ul{
+    list-style-type: none;
+    columns: 2;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #053318;
 }
 
 #extra > h3{
@@ -120,12 +154,19 @@ p{
     padding: 10px;
 }
 
+main section{
+    padding: 5px 10px 0px 10px;
+    margin-bottom: 10px;
+}
+
 
 footer{
     color: white;
     background-color: #1B5936;
+   
 }
 
 footer > p {
     text-align: center;
+    padding-bottom: 0px;
 }
