@@ -13,15 +13,21 @@
             height: 500px;
             display: block;
             margin: auto;
+            border: 1px solid black;
         }
     </style>
     <title>iframe</title>
 </head>
 <body>
     <h1>Teste com iframe</h1>
+    <ul>
+        <li><a href="pagina001.html" target="meu-iframe">iframe tabela</a></li>
+        <li><a href="pagina002.html" target="meu-iframe">iframe azul</a></li>
+        <li><a href="pagina003.html" target="meu-iframe">iframe noturno</a></li>
+    </ul>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, iure officia dolore accusantium eos dolorem iusto dolor, ipsum ex fuga ab. Quia perspiciatis sunt ipsam aliquid enim deserunt exercitationem magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius minus quasi dignissimos debitis, esse, repudiandae expedita voluptatibus ex, ullam corrupti officia natus nihil doloremque voluptas sed? Vel illum unde aliquid?</p>
     
-    <iframe src="pagina001.html" frameborder="0"></iframe>
+    <iframe srcdoc="<h1>Selecione uma das opções da lista</h1><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ex autem ratione repellat corporis iure nemo obcaecati fugit nam vel eum rem tempore laboriosam ea necessitatibus, placeat voluptates inventore earum!</p>" frameborder="0" name="meu-iframe"></iframe>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, nobis maiores. Quam, esse mollitia. Veniam harum, temporibus atque qui explicabo quisquam inventore cupiditate nostrum excepturi in fugit tenetur maiores commodi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus magni cumque id impedit, atque omnis nemo autem laboriosam, alias consectetur perspiciatis corporis repellendus soluta doloremque fugit ad, sapiente debitis similique.</p>
 </body>
 </html>
