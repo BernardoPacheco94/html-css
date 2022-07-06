@@ -41,3 +41,23 @@ main{
     width: 267px;
     height: 471px;
 }
+
+#redes-sociais {
+    text-align: right;
+    padding-top: 10vh;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;/*Adiciona a borda ao tamanho da 'box', tira a movimentação dos elementos quando faz o hover*/
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.493);
+    transform: translate(-3px, -3px);
+    transition: transform 90ms, border 190ms;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.281);
+}
