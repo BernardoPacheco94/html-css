@@ -1,0 +1,437 @@
+anotacoes curso HTML + CSS
+
+################################
+
+Aula: Precisamos fazer um acordo
+link dos materiais -> github.com/gustavoguanabara
+
+################################
+
+Aula: Melhores livros pra aprender
+
+Material de apoio: https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+Referências: MDN, w3c, Whatwg (html), w3schools.
+
+Livros de design: Curso de design gráfico, Design (senac), A psicologia das cores, pensar com tipos.
+
+################################
+
+
+Aula: Diferença html, css e javascript
+
+html: linguagem de marcação de texto. Usada para conteúdos, que podem ser texto, imagem, vídeo, tabela...
+css: design do site, cores, sombra, tamanho, posicionamento
+Geralmente entra em styles ex:
+
+h1 <--(seletor)--> {
+			font-family: Arial; <--declaração-->
+			font-size: 20pt;
+			color:<--propriedade--> blue;
+		}
+javascript (js): interatividade, menu, animação, popup, validação.
+
+
+
+Estrutura do html:
+
+<!DOCTYPE html> <-- Tipo de documento -->
+<html lang="pt-br"> <--linguagem, usada pra tradução automatica do site-->
+	<head>
+		<-- aqui vão as configurações da página -->
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> <-- significa que vai ocupar todo o espaço da página e com scala de zoom 100% -->
+		<title> Document </title>
+	</head>
+	<body>
+		<-- o corpo contem o site em si -->
+		<h1>Olá mundo</h1>
+	</body>
+</html>
+
+
+################################
+
+Aula: Front-end, Back-end e Full stack
+
+Front-end: Tencologias que são executadas no pc do cliente, pelo navegador (html, css, javascript).
+Back-end: Tecnologias que rodam no servidor (php, phyton, javascript(node), C#, java).
+Full stack: Trabalha com ambas tecnologias.
+
+################################
+
+Aula: Intalando todas as ferramentas
+
+Navegador e editor de código
+
+################################
+
+Aula seu primeiro código html
+
+Criar pastas pra projetos
+
+
+################################
+Aula Símbolos e Emojis no seu projeto
+
+Para aumentar espaçamentos ou muitas quebras de linha tem que usar o CSS, não utilizar gambiarras como <br><br><br><br><br>
+Emojis em emojipedia.org
+Estrutura do código de emoji, começa com '&#x' sempre, seguido do código dele, que é verificado no site indicado
+
+Exercícios do pdf:
+1.a
+2.b
+3.c
+4.c
+5.c
+6.d
+7.c
+8.d
+9.b
+10.a (sem gabarito)
+
+################################
+
+Aula imagem
+Não usar imagens direto do google, pois direitos autorais existem.
+
+Pra usar imagens que tenham direitos de serem copiadas:
+Google -> Ferramentas -> Direitos de uso -> marcar a opção 'Marcadas pra reutilização com modificação'.
+verificar material pdf para sites de imagens, formatos de imagens.
+
+Formatos de imagem recomendados: JPEG e PNG
+JPEG: É extremamente compactado, mas não é possível trabalhar com transparência
+PNG: Também é compactado (menos que jpeg), e suporte transparência, um pouco mais de qualidade.
+Pensar sempre no tamanho das imagens na hora de desenvolver, quanto mais leve melhor o carregamento.
+
+Ferramenta free para redimensionar imagem: Gimp
+Dimensão recomendada: 1200p
+qualidade 70%
+
+################################
+
+Aula tag img
+
+Atalho para localizar o arquivo da imagem Ctrl+espaço
+
+Favicon:
+É o iconezinho que aparece na aba, a esquerda do Título <title>.
+Procurar icone existente em iconarchive.com
+favicon.cc para criar um icone.
+favicon.io para converter um arquivo em icone (construir atraves de emoji)
+
+################################
+
+Aula hierarquia de títulos
+
+Macete: lorem para gerar parágrafo aleatório
+
+################################
+
+Aula Semantica na HTML5
+
+O html5 é utilizado para demarcar os significados dos textos e elementos. Para dar forma (tamanho, cor, fonte, formato) é usado o CSS3. É essencial saber identificar onde usar cada um.
+
+################################
+
+Aula negrito e italico do jeito certo
+
+Macete: quando precisar colocar alguma coisa já escrita entre tags, seleciona a frase e aperta Ctrl+Shift+p, clica wrap with abreviation e digite o conteúdo da tag.
+
+file:///E:/estudos/html-css/exercicios/ex008/index.html
+
+################################
+
+Aula Listas OL e UL
+
+file:///E:/estudos/html-css/exercicios/ex009/index.html
+
+################################
+
+Links e Âncoras:
+Macete: quando for disponibilizar um site, pesquisar por SEO
+
+file:///E:/estudos/html-css/exercicios/ex010/index.html
+
+################################
+
+Aula: Imagens que se adaptam
+
+Utilizar o source: type. Sempre com a imagem padrão na parte debaixo, não inverter a ordem.
+
+################################
+
+Aula: Formatos de video
+
+Baixar a ferramenta handbreak para conversão de videos
+Usar conversao para web - diminuindo o tamanho
+
+-------------------MÓDULO DOIS-----------------------------------
+Aula: Psicologia das cores.
+Verificar no PDF https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf as emoções ligadas a cada tipo de cor
+
+################################
+
+Aula: Harmonia de cores
+
+Círculo cromático:
+https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf
+
+
+*Cores primárias - Azul, vermelho e amarelo
+*Cores secundárias - Laranja, verde, violeta
+*Cores terciárias (nome da cor primaria na frente) - Amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado, amarelo-esverdeado
+
+Sempre pensar na paleta de cores para os projetos
+Paleta tem de 3 a 5 cores no máximo (preto e branco não conta)
+
+COMO ESCOLHER PALETA DE CORES?
+Pensar em CORES COMPLEMENTARES, que são cores que tem um alto contraste entre si.
+Para ver a cor que contrasta, deve se observar a cor que está do outro lado do círculo cromático.
+Ex: Vermelho -> Verde
+
+Pensar também em CORES ANÁLOGAS, que são as cores que estão ao lado de uma cor específica no círculo cromático.
+Uso para similaridade, harmonizar.
+
+Cores análogas relacionadas: Utiliza duas cores em sequência no círculo cromático, pula uma e seleciona a próxima.
+
+Cores intercaladas: Como as relacionadas, mas com maior contraste. Seleciona a cor, pula, seleciona e pula, usando 3 cores.
+
+Monocromia: É selecionada uma cor e alterados os parametros HSL (aprofundamento/Degradê).
+
+Ferramenta top pra ver paletas: Adobe Color
+
+Ferramenta de captura de cor web: Chrome = colorzilla
+
+################################
+
+Aula: Primeiros passos em tipografia
+
+Importante para visibilidade da escrita.
+O que eu configuro na CSS é a altura do corpo da fonte.
+
+CATEGORIAS DE FONTES:
+
+- Serifadas: com serifas
+- Sans-serif: sem serifas, melhor para sites
+- Monoespaçada: mesmo espaço entre as fontes, podem ser com ou sem serifas
+- handwriting: simula uma escrita a mão
+- display: fontes comemorativas, não seguem as características das demais
+
+Safe font combinations -> combinações de fontes semelhantes
+
+################################
+
+font-style font-weigth font-size font-family
+
+################################
+
+Aula: Usando id com css
+
+################################
+
+Aula: Usando id com CSS
+
+Para atribuir um id a elemento, informe, dentro da tag id="x"
+EX: <h1 id="principal">
+
+Para usar o id no CSS, usa o #
+EX: #principal {
+		text-align center;
+	}
+
+Podemos atribuir classes também. Uma classe pode ser usada em mais de um elemento, o id não. Para atribuir uma classe, use class="classe" dentro da tag do elemento:
+EX: <h2 class="classe">
+
+Comando 'Children' (filho ou dependente) sinal '>'. Significa que que a marcação vai depender de uma regra para a tag que estiver dentro da anterior.
+EX:
+	h2>p:hover {
+		text-decoration: underlinle;
+	} /*O parágrafo dentro do h2 ficará sublinhado, quando passar o mouse em cima*/
+
+################################
+
+Aula Modelo de caixas
+
+Aninhamento: uma caixa dentro de outra.
+Medidas das caixas: height e width (altura e largura), border (marca o conteudo contornando), padding (distancia interna da borda ao conteúdo), margin (distancia externa da bordaao conteúdo), outline (marcação fora da borda).
+
+Tpos de caixa:
+Box-Level: Cada elemento ocupa o espaço total da largura, quando termina o elemento, quebra a linha e vai pra baixo. Ex: <div> <h1> <p> <nav>
+
+Inline-level: Nesse elemento, não há quebra de linhas, exibe o elemento e em seguida exibe o restante do conteúdo na mesma linha. Ex: <span> <a> <code> <button> <label>
+
+Para ver detalhes do código no opera:
+Botão direito na página > inspecionar elemento > ... > Dock side
+User Agent: setado pelo navegador
+
+Para deixar algum elemento centralizado, usar margin: auto;
+
+################################
+
+Aula: Desafio 10 - Android
+
+Correção:
+*Ferramenta de planejamento de site: https://www.mockflow.com*
+
+Dica: Analisar responsividade, setar tamanho maximo nos conteúdos
+site para fontes: Dafont
+site para cores: adobecolor
+
+
+diferenças encontradas:
+*ele colocou o nav fora do header, eu coloquei dentro do header
+*ele usou a tag article dentro do main e colocou todo o texto, coloquei direto h1 e p  coloquei parte por parte
+*ele colocou o style.css em outra pasta
+*na minha div id="extra" ele colocou a tag aside, pq era um conteudo extra
+*nao foi criado lista no nav
+*usar declaração de variáveis em :root { }, para definir a paleta de cores, fontes
+*usar o * seta config em todos os elementos do html.
+*RESPONSIVIDADE! O ideal é limitar páginas a 1000 - 1200px de width
+*setar a largura dos elementos do main de acordo com o desejado e colocar largura 100% nas imagens
+*estilo do menu de modo simples, apenas setando background e color em nav > a: hover
+*assuntos que não fazem parte do principal, foram colocados na tag <aside>
+*pra configurar a lista ' aside > ul {} '
+*trocar a figura do item, pegando do emojipedia
+*configuração de link externo: cria a classe "external" na tag a do html e configura no css com 'a.external:after {}'
+*USAR EMOJISSSSSS
+*config do video - envelopa o video com uma div, configura a div. depois usa div > iframe {}. Usar posição relativa no div e absoluta no div>iframe. Quando eu uso posição absoluta, consigo configurar top, left, height e width(iframe). Padding-bottom (div) ajusta o tamanho da div, depois uso em % ou px as propriedades do iframe (height width top e left), em resumo a div é a referencia pro meu video responsivo. Faço a div responsiva e posiciono o iframe na div.
+
+Fim do modulo 2
+
+################################
+
+Aula: git e github.
+
+Para deletar repositorios locais: seleciona o repositorio no github > repository > delete.
+Para deletar repositorios remotos: Settings > delete repository
+
+ATENÇÃO: O Git não vem habilitado pra clonar um projeto ao logar em outro pc. Habilitar em File > Options > Git > Save (depois de logar)
+Pra deletar um rrepositorio de uma máquina local, fechar tudo menos github, ir no Github > Repository > marcar eliminar pra lixeira > Remove. File > Options > Sign out. File > Git > apagar nome e email > Save. Esvaziar lixeira.
+
+################################
+
+Aula: Configurando imagens:
+
+Propriedades iniciais do background
+background-size
+background-position: repeat, no-repeat, repeat-x/y
+
+################################
+
+Aula: Configurando posição da imagem de fundo do site
+
+o que configura a posição é o backgound-position e os valores são coluna+linha. Ex:
+background-position: center left; (alinhando a imagem ao centro-esquerda).
+
+################################
+
+Aula: Mudando o tamanho da imagem de fundo do site
+
+background-size: auto; - é o padrão (corta ou repete dps que chega no limite da imagem)
+background-size: contain - (não permite corte na imagem, exibe 100% dela sempre)
+background-size: cover Cobre toda a tela, fazendo cortes para adaptar
+
+ainda posso usar tamanho em pixels ou porcentagem
+
+background-attachment (vínculo): scroll; é o padrão, rola junto com a tela
+background-attachment: fixed; /*Deixa o background fixo, ou seja, se rolar a pagina a imagem se mantem
+
+SHORTHAND - BACKGROUND
+color > image > position > / > size > repeat > attechment
+
+################################
+
+Aula: Centralização vertical de caixas
+
+Para fazer alinhamento vertical:
+1 - O conteúdo deve ser colocado dentro de um container (section/div)
+2 - o Container deve ter posição relativa e o conteúdo absoluta
+3 - O conteudo deve ser setado com top e left, para ficar exatamente no meio do container esses valores devem ser 50%
+4 - Se os valores forem 50% será considerado a margem esquerta/cima do conteúdo. Para que fique exatamente no meio, usamos a propriedade transform: translate (-50% -50%).
+
+Ex:
+            position: absolute; (no conteúdo)
+            top: 50%;
+            left: 50%;
+            
+            transform: translate(-50%, -50%); (aqui diminuimos na metade a consideração do posicionamento absoluto, metade pra cima e metade para esquerda)
+
+################################
+
+Aula: tabelas
+
+tag <table>
+
+Hierarquia de tableas (simples):
+
+table
+  table row (linha da tabela)
+     table header (cabeçalho)
+        table data (dado de tabela)
+
+Remover espaço das bordas: border-collapse: collapse;
+
+################################
+
+Aula: Trabalhar com tabelas grandes
+
+Anatomia de tabelas grandes:
+	CAPTION - Legenda
+	Head - tr, td, th
+	TBody - tr, td, th
+	TFoot - tr, td, th
+
+scope -> informa a orientação dos dados, se o indicativo é para linha ou coluna. SEMPRE USAR EM TH
+
+Para mescalr dados. Usar o comando colspan (expansão de coluna, ou seja, para o lado), ou rowsap (expansão de linha, no caso, para cima ou baixo). 
+
+Para fazer configuração das colunas em HTML5, usar a tag <colgroup>, dentro dela vai a tag <col> pode ser usada para setar cores, por exemplo
+
+
+Tabelas Responsivas:
+Envelopar toda a tabela com uma div e usar a ferramenta {overflow: auto}
+
+################################
+
+Aula: iframes
+
+iframe é um "quadro em linha" onde é aberto um frame para outro site dentro página.
+
+Para usar um iframe, de uma página do mesmo diretório, usar o comando target apontando para o atributo name setado no iframe
+
+Propriedade para evitar captura de informações e execução de scripts através do iframe | sandbox="sandbox", na própria tag iframe
+
+################################
+
+Propriedade Tranistion e Transform:
+
+Utilizar para a movimentação e animação de alguns elementos.
+O Transform: translate vai mexer na posição e o transition no tempo que leva para fazer a animação do posicionamento
+Verificar as propriedades do transform para ver mais animações
+
+Ex: E:\estudos\html-css\desafios\projeto-redes-sociais\estilos\style.css em #redes-sociais img:hover{}
+
+
+Esconder barra de rolagem:
+
+::-webkit-scrollbar {
+	width: 0px;
+	heigth: 0px;
+}
+
+
+################################
+
+Formulários
+
+Para desligar as recomeções do campo, usar a propriedade autocomplete="off" na tag form
+ 
+Métodos de envio de formulario:
+GET - Padrão do navegador, envia os dados pela url
+POST - Não envia pela url, envia por "baixo" do navegador
+
+
+
+
