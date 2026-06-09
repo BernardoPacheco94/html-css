@@ -61,7 +61,7 @@ Full stack: Trabalha com ambas tecnologias.
 
 ################################
 
-Aula: Intalando todas as ferramentas
+Aula: Instalando todas as ferramentas
 
 Navegador e editor de código
 
